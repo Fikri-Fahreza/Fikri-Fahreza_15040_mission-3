@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videobelajar - Beranda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#FFFCF5] flex flex-col min-h-screen">
+  <!-- Navbar -->
+  <nav class="bg-white w-full p-3 md:shadow-none shadow-md fixed top-0 left-0 z-10 flex justify-between items-center">
+    <div class="flex items-center md:ml-10">
+      <img src="assets/Logo.png" alt="Logo" class="h-10">
+    </div>
+
+    <div class="hidden md:flex lg:flex items-center gap-4 mr-10"> <!-- Disembunyikan di layar kecil -->
+      <span class="text-gray-500 font-bold">Kategori</span>
+      <img src="assets/fikri.jpg" alt="Avatar" class="h-8 w-8 rounded-md">
+    </div>
+    <div class="md:hidden lg:hidden flex items-center gap-4 mr-2"> <!-- Disembunyikan di layar besar -->
+      <i class="bi bi-list text-3xl"></i>
+    </div>
+  </nav>
+  <!-- Navbar end-->
+
+
+  <!-- Main Content -->
+  <div class="flex-grow mt-16">
+    <!-- Hero Section -->
+    <section
+      class="bg-[url('../assets/FrameBanner.png')] bg-cover bg-center rounded-lg mx-4 sm:mx-6 md:mx-auto my-6 p-6 sm:p-10 md:p-16 lg:p-20 text-center text-white max-w-full md:max-w-6xl lg:max-w-7xl">
+      <h2 class="text-5xl lg:text-6xl font-bold leading-tight">Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform
+        Video Interaktif!</h2>
+      <p class="mt-2 text-sm sm:text-base md:text-lg lg:text-xl">Temukan kursus yang sesuai untuk meningkatkan
+        keterampilan dan pengetahuan Anda.</p>
+      <button
+        class="mt-4 px-6 py-2 md:px-8 md:py-2 text-base md:text-lg bg-[#3ECF4C] hover:bg-green-600 text-white rounded-md">Temukan
+        Video Course Untuk Dipelajari!</button>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Koleksi Video Pembelajaran section-->
+    <section class="max-w-7xl mx-auto p-6">
+      <div class=" py-8">
+        <div class="max-w-4x">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Koleksi Video Pembelajaran Unggulan</h2>
+          <p class="text-gray-600 mt-2">Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</p>
+          <div class="flex gap-6 mt-6 text-gray-500 text-lg font-medium">
+            <span class="text-orange-500 relative cursor-pointer">
+              Semua Kelas
+              <div class="w-8 h-1 bg-orange-500 absolute left-0 -bottom-1 rounded-full"></div>
+            </span>
+            <span class="cursor-pointer hover:text-gray-900">Pemasaran</span>
+            <span class="cursor-pointer hover:text-gray-900">Desain</span>
+            <span class="cursor-pointer hover:text-gray-900">Pengembangan Diri</span>
+            <span class="cursor-pointer hover:text-gray-900">Bisnis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 mt-4">
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 22957.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 2.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 3.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 4.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 mt-4">
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 5.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 6.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 7.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 8.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card --> 
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 mt-4">
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 9.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 3.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 2.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="assets/Rectangle 22957.png" class="rounded-md w-full mb-2">
+          <h4 class="font-semibold text-gray-800">Big 4 Auditor Financial Analyst</h4>
+          <p class="text-gray-500 text-sm line-clamp-2">Mulai transformasi dengan instruktur profesional, harga yang
+            terjangkau, dan kurikulum terbaik</p>
+          <!-- card body -->
+          <div class="flex items-center gap-3 bg-white py-4 w-full justify-start">
+            <img src="assets/fikri.jpg" alt="Avatar" class="w-12 h-12 rounded-md">
+            <div>
+              <span class="block font-semibold text-gray-800">Fikri Fahreza</span>
+              <span class="text-sm text-gray-500">Fullstack Developer Gojek</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-1">
+              <div class="flex">
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-yellow-400">★</span>
+                <span class="text-gray-300">★</span>
+                <span class="text-gray-300">★</span>
+              </div>
+              <span class="text-gray-600 text-sm">3.5</span>
+              <span class="text-gray-500 text-sm underline">(86)</span>
+            </div>
+            <span class="text-green-500 font-bold text-lg">Rp 300K</span>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Koleksi Video Pembelajaran section end-->
+
+    <!-- Call to Action Section -->
+    <section
+      class="bg-[url('../assets/Banner-CTA.png')] bg-cover bg-center rounded-lg mx-4 sm:mx-6 md:mx-auto my-6 p-6 sm:p-10 md:p-16 lg:p-20 text-center text-white max-w-full md:max-w-6xl lg:max-w-7xl">
+      <h2 class="text-3xl lg:text-4xl font-bold leading-tight">Mau Belajar Lebih Banyak?</h2>
+      <p class="mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
+        Daftarkan dirimu untuk mendapatkan informasi terbaru dan penawaran spesial dari program-program terbaik
+        hariesok.id
+      </p>
+      <!-- Form Input large screen -->
+      <form
+        class="hidden sm:flex my-6 flex justify-center items-center max-w-xl mx-auto bg-white rounded-md shadow-lg overflow-hidden">
+        <input type="email" placeholder="Masukkan Emailmu"
+          class="flex-1 p-3 text-gray-700 focus:outline-none placeholder-gray-500">
+        <button class="px-6 py-3 m-2 text-base bg-[#F4B43A] hover:bg-[#e0a832] text-white font-medium rounded-lg">
+          Subscribe
+        </button>
+      </form>
+
+      <!-- form input sm screen -->
+      <form class="md:hidden grid gap-4 my-6 max-w-xl mx-auto rounded-md shadow-lg overflow-hidden p-4">
+        <input type="email" placeholder="Masukkan Emailmu"
+          class="p-3 text-gray-700 focus:outline-none placeholder-gray-500 border border-gray-300 rounded-xl text-center">
+        <button class="px-6 py-2 text-base md:text-lg bg-[#F4B43A] hover:bg-[#e0a832] text-white rounded-xl">
+          Subscribe
+        </button>
+      </form>
+    </section>
+    <!-- Call to Action Section end-->
+
+  </div>
+  <!-- Main Content end-->
+
+  <!-- footer -->
+  <footer class="bg-white border-t border-gray-200 py-8 px-6 sm:px-12">
+    <div class="lg:mx-12 md:mx-12 mx-4">
+      <div class="md:flex flex-col sm:flex-row justify-between items-start w-full ">
+
+        <!-- Left Section -->
+        <div class="sm:w-1/3 text-left">
+          <div class="flex">
+            <img src="assets/Logo.png" alt="Logo" class="h-10">
+          </div>
+          <p class="mt-3 text-sm text-gray-700 font-semibold">
+            Gali Potensi Anda Melalui <br>
+            <span class="font-bold">Pembelajaran Video di hariesok.id!</span>
+          </p>
+          <p class="mt-3 text-sm text-gray-600">
+            Jl. Satria, Desa Lama, Pancur Bat <br>
+            +62-877-7123-1234
+          </p>
+        </div>
+
+        <!-- Right Section -->
+        <div
+          class="hidden sm:flex flex-wrap sm:flex-nowrap sm:gap-16 mt-6 sm:mt-0 text-sm text-gray-700 text-right sm:w-2/3 justify-end">
+          <div>
+            <h3 class="font-semibold text-left">Kategori</h3>
+            <ul class="mt-2 space-y-1 text-left">
+              <li>Digital & Teknologi</li>
+              <li>Pemasaran</li>
+              <li>Manajemen Bisnis</li>
+              <li>Pengembangan Diri</li>
+              <li>Desain</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-left">Perusahaan</h3>
+            <ul class="mt-2 space-y-1 text-left">
+              <li>Tentang Kami</li>
+              <li>FAQ</li>
+              <li>Kebijakan Privasi</li>
+              <li>Ketentuan Layanan</li>
+              <li>Bantuan</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-left">Komunitas</h3>
+            <ul class="mt-2 space-y-1 text-left">
+              <li>Tips Sukses</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Responsive Footer (Small Screen) -->
+        <div class="sm:hidden mt-6">
+          <button class="w-full text-left py-3 border-b border-gray-300 font-semibold flex justify-between items-center"
+            onclick="toggleMenu('kategoriMenu')">
+            Kategori <span>›</span>
+          </button>
+          <ul id="kategoriMenu" class="hidden mt-2 space-y-1 px-4 text-sm text-gray-700">
+            <li>Digital & Teknologi</li>
+            <li>Pemasaran</li>
+            <li>Manajemen Bisnis</li>
+            <li>Pengembangan Diri</li>
+            <li>Desain</li>
+          </ul>
+
+          <button class="w-full text-left py-3 border-b border-gray-300 font-semibold flex justify-between items-center"
+            onclick="toggleMenu('perusahaanMenu')">
+            Perusahaan <span>›</span>
+          </button>
+          <ul id="perusahaanMenu" class="hidden mt-2 space-y-1 px-4 text-sm text-gray-700">
+            <li>Tentang Kami</li>
+            <li>FAQ</li>
+            <li>Kebijakan Privasi</li>
+            <li>Ketentuan Layanan</li>
+            <li>Bantuan</li>
+          </ul>
+
+          <button class="w-full text-left py-3 border-b border-gray-300 font-semibold flex justify-between items-center"
+            onclick="toggleMenu('komunitasMenu')">
+            Komunitas <span>›</span>
+          </button>
+          <ul id="komunitasMenu" class="hidden mt-2 space-y-1 px-4 text-sm text-gray-700">
+            <li>Tips Sukses</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Bottom Section -->
+      <div class="mt-6 border-t border-gray-200 pt-6 flex flex-col sm:flex-row justify-between text-sm text-gray-600">
+        <p>@2025 Fikri Fahreza All Rights Reserved.</p>
+        <div class="flex space-x-4 mt-3 sm:mt-0">
+          <a href="#" class="text-gray-500 hover:text-gray-800"><i class="bi bi-linkedin"></i></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-800"><i class="bi bi-facebook"></i></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-800"><i class="bi bi-instagram"></i></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-800"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <script>
+    function toggleMenu(id) {
+      document.getElementById(id).classList.toggle("hidden");
+    }
+  </script>
+</body>
+
+</html>
